@@ -1,5 +1,5 @@
 /*
- *    def.js: Simple Ruby-style inheritance for JavaScript
+ *    def.js: 一个简单的 Ruby 风格的 JavaScript 继承
  *
  *    Copyright (c) 2010 Tobias Schneider
  *    This script is freely distributable under the terms of the MIT license.
@@ -20,6 +20,7 @@
         for(var key in source) if(source.hasOwnProperty(key)){
             prop = target[key] = source[key];
             // check if we're overwriting an existing function
+            // 判断一下是否覆盖（overwriting）了一个已经存在的函数
             if('function' == typeof prop){
                 // mark each method with its name and surrounding class
                 prop._name = key;
