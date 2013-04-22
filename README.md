@@ -1,7 +1,7 @@
-Simple Ruby-style inheritance for JavaScript
+一个简单的 Ruby 风格的 JavaScript 继承
 ============================================
 
-## Example
+## 示例
 
 	def ("Person") ({
 		init: function(name){
